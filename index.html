@@ -76,7 +76,7 @@
                         <li>Any color</li>
                         <li>Any style</li>
                     </ol>
-                    <button class="pr">Select</button>
+                    <button id="t-shirt-btn" class="pr">Select</button>
                 </div>
                 <div class="pricing">
                     <div class="pricing-header">Hoodie</div>
@@ -86,7 +86,7 @@
                         <li>Any color</li>
                         <li>Any style</li>
                     </ol>
-                    <button class="pr">Select</button>
+                    <button id="hoodie-btn" class="pr">Select</button>
                 </div>
                 <div class="pricing">
                     <div class="pricing-header">Pants</div>
@@ -96,9 +96,19 @@
                         <li>Any color</li>
                         <li>Any style</li>
                     </ol>
-                    <button class="pr">Select</button>
+                    <button id="pants-btn" class="pr">Select</button>
                 </div>
             </section>
+            <div id="shopping-cart" style="visibility: hidden;">
+                <h2 class="amount">Shopping Cart</h2>
+                <div id="cart-content"></div>
+                <br>
+                <div id="total-price"></div>
+                <br>
+                <button id="purch-btn" class="pr">Purchase</button>
+                <br>
+                <button id="clear-btn" class="pr" style="background-color: lightslategray;">Clear</button>
+            </div>
             <footer>
                 <ul>
                     <li><a href="#">Privacy</a></li>
@@ -109,5 +119,6 @@
             </footer>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
